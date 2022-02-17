@@ -1,12 +1,12 @@
 {
   "name": "unit-test-express",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "start": "node src/index.js",
-    "watch": "nodemon src/index.js"
+    "start": "node src/server.js",
+    "watch": "nodemon src/server.js"
   },
   "dependencies": {
     "@types/jest": "^27.4.0",

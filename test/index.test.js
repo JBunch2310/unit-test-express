@@ -1,5 +1,5 @@
-const supertest = require("supertest")
 const sut = require("../src/index")
+const supertest = require("supertest")
 
 
 describe('Verifies all the endpoints', () => {
